@@ -14,9 +14,6 @@ This template contains the react example as shown on [Figma Docs](https://www.fi
 ⭐ To interact with the Figma API edit [controller.ts](./src/plugin/controller.ts).  
 ⭐ Read more on the [Figma API Overview](https://www.figma.com/plugin-docs/api/api-overview/).
 
-## Toolings
-This repo is using:
-* React + Webpack
-* TypeScript
-* TSLint
-* Prettier precommit hook
+## Typings (`figma.d.ts`)
+
+Refer to the [Typings File documentation](https://www.figma.com/plugin-docs/api/typings/).

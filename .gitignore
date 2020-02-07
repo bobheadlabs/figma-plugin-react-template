@@ -1,4 +1,15 @@
+# deps
 node_modules
-dist
-settings.json
 yarn-error.log
+package
+package-lock.json
+yarn.lock
+
+# config
+settings.json
+
+# build
+dist
+
+# misc
+.DS_Store
