@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "/usr/local/bin/node node_modules/.bin/webpack --mode=production",
 		"build:watch": "/usr/local/bin/node node_modules/.bin/webpack --mode=development --watch",
-		"lint": "eslint ."
+		"lint": "eslint . --ext js,jsx,ts,tx"
 	},
 	"dependencies": {
 		"react": "^16.12.0",

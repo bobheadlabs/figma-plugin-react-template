@@ -24,5 +24,21 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    quotes: ['error', 'single'],
+    'no-restricted-globals': ['off'],
+    'no-param-reassign': ['error', { 'props': false }],
+    'import/extensions': ['off'],
+    'react/jsx-filename-extension': ['error', { 'extensions': ['.tsx'] }],
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
+  globals: {
+    __html__: 'readonly',
+    figma: 'readonly',
   },
 };

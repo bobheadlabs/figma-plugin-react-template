@@ -1,2 +1,8 @@
 # externally provided
 figma.d.ts
+
+# dependencies
+node_modules/*
+
+# artifacts
+build/*
